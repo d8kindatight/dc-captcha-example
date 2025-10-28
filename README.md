@@ -11,10 +11,12 @@ a simple discord verification bot using text-based captchas
 
 1. clone the repo
 2. install dependencies
+
    ```bash
    pip install discord.py
    ```
 3. create a `.env` file with:
+
    ```env
    DISCORD_TOKEN=your_bot_token
    GUILD_ID=your_guild_id
@@ -23,6 +25,7 @@ a simple discord verification bot using text-based captchas
    CHANNEL_ID=your_channel_id
    ```
 4. run the bot:
+
    ```bash
    python discord_main.py
    ```
